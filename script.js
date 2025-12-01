@@ -1,7 +1,7 @@
-function sum(a,b,c){
-    return a + b;
+function sum(a,b,c,_,c){
+    return a + b + _;
 }
 
 function name(params) {
-    eval(params)
+    console.log(params)
 }
